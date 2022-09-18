@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Button fx:id="btTest" layoutX="319.0" layoutY="250.0" mnemonicParsing="false" onAction="#onBtTestAction" text="Button" />
+      <Label layoutX="176.0" layoutY="19.0" text="Progrma Teste" />
+      <Label layoutX="294.0" layoutY="217.0" text="Click Aqui Para Sair" />
+      <ButtonBar layoutX="14.0" layoutY="243.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button mnemonicParsing="false" text="Button" />
+        </buttons>
+      </ButtonBar>
+      <CheckBox layoutX="14.0" layoutY="217.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox layoutX="14.0" layoutY="188.0" mnemonicParsing="false" text="CheckBox" />
+      <ChoiceBox layoutX="12.0" layoutY="19.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
